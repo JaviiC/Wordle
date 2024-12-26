@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<appender name="Consola" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>%d %green([%thread]) %highlight(%level) %cyan(%logger{50}) - %msg%n
+			</pattern>
+		</encoder>
+	</appender>
+	
+	<appender name="Fichero" class="ch.qos.logback.core.FileAppender">
+		<file>wordle_20-12-2024.log</file>
+		<encoder>
+			<pattern>%d [%thread] %-5level %-40logger{50} - %msg%n</pattern>
+		</encoder>
+	</appender>
+	<root level="TRACE">
+		<appender-ref ref="Consola" />
+		<appender-ref ref="Fichero" />
+	</root>
+</configuration>

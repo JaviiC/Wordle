@@ -1,0 +1,16 @@
+/* window.css */
+.label {
+    -fx-background-color: #D3D3D3;
+    -fx-background-radius: 5px;
+    -fx-padding: 10px;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+}
+
+#gameOverLabel {
+    -fx-background-color: transparent;
+}
+
+.grid-pane {
+    -fx-background-color: transparent; /* Sin fondo */
+}
