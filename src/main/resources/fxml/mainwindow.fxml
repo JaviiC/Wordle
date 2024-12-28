@@ -110,12 +110,12 @@
                <children>
                   <VBox prefHeight="66.0" prefWidth="481.0">
                      <children>
-                        <Label text="Personajes y Famosos" textFill="#3b3b3b">
+                        <Label text="Personajes" textFill="#3b3b3b">
                            <font>
                               <Font name="System Bold" size="16.0" />
                            </font>
                         </Label>
-                        <Label text="Actores y actrices, deportistas, personajes cinematográficos, científicos, influyentes..." />
+                        <Label text="Los personajes animados y cinematográficos de las mejores series y películas." />
                      </children>
                   </VBox>
                   <ToggleSwitch fx:id="toggleSwitchFilms" focusTraversable="false" onMouseClicked="#toggleSwitchEvent" />
