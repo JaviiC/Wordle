@@ -40,3 +40,6 @@ build/
 
 ### Archivos .log ###
 .log
+
+### Archivos generados, como el .jar ###
+!out/*.jar
