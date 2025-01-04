@@ -39,7 +39,7 @@ build/
 .DS_Store
 
 ### Archivos .log ###
-.log
+/out/artifacts/WORDLE_jar/wordle_20-12-2024.log
 
 ### Archivos generados, como el .jar ###
 !out/*.jar
