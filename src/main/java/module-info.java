@@ -9,8 +9,8 @@ module org.example.wordle {
     requires com.almasb.fxgl.all;
     requires org.slf4j;
 
-    opens org.example.wordle to javafx.fxml;
     exports org.example.wordle;
     exports org.example.controllers;
+    opens org.example.wordle to javafx.fxml;
     opens org.example.controllers to javafx.fxml;
 }
